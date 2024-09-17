@@ -1,0 +1,45 @@
+Описать типы для каждого элемента.
+
+// TODO Enum
+const actionMap = [
+  'add', 'delete', 'update'
+];
+
+// TODO Interface
+function func (id, isActive, callback) {
+  return [
+    [ 'name', 123 ]
+  ]
+}
+func(1, true, () => {});
+
+// TODO Interface
+const a = {
+  id: 123,
+  name: 'Eric',
+  items: [
+    {
+      id: 55,
+      name: 'Masha',
+      items: []
+    },
+    {
+      id: 34,
+      name: 'Max',
+      items: null
+    }
+  ]
+};
+
+// Ключ может оказаться любым. Нужно создать интерфейс, описывающий объект n (типизировать ключи и значения)
+const n = {
+  smth: function(number) {
+    return 'test';
+  },
+  smth2: function(number) {
+    return 'test';
+  },
+  smth3: function(number) {
+    return 'test';
+  }
+};
