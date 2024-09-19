@@ -7,12 +7,12 @@ enum ACTION {
 type Person = {
   id: number,
   name: string,
-  items: Person[] | [] |  null
+  items: Person[] |  null
 }
 
 
 // TODO Enum
-const actionMap = [ACTION.ADD, ACTION.DELETE, ACTION.UPDATE];
+const actionMap: ACTION[] = [ACTION.ADD, ACTION.DELETE, ACTION.UPDATE];
 
 // TODO Interface
 function func(id: number, isActive: boolean, callback: Function): (string | number)[][] {
